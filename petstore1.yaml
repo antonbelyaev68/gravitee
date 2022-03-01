@@ -5,10 +5,10 @@ info:
   description: >-
     This is a sample server Petstore server. For this sample, you can use the api key
     `special-key` to test the authorization filters.
-  version: 1.1.0
+  version: 1.1.1
   title: OpenAPI Petstore
   license:
-    name: Apache-2.0!!!
+    name: Apache-2.0
     url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
 tags:
   - name: pet
@@ -26,8 +26,8 @@ paths:
       description: ''
       operationId: addPet
       responses:
-        '200':
-          description: successful operation
+        '201':
+          description: Created
           content:
             application/xml:
               schema:
